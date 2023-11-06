@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Document</title>
+  <link rel="stylesheet" href="styles/site.css" />
+</head>
+
+<body>
+  <h1 id="headline">My page about hockey</h1>
+  <a href="second.html">Go to second page</a>
+
+  <!-- Add a simple greeting to your page-->
+  <p>
+    Name: <input type="text" id="users-name" /><br />
+    <button id="pressme" type="button">Click here</button>
+  </p>
+  <p id="greeting"></p>
+
+  <!-- Add two numbers -->
+  <p>
+    <input type="number" id="number1" /> +
+    <input type="number" id="number2" /><br />
+    <button id="addButton" type="button">Add</button>&nbsp;<span id="answer"></span>
+  </p>
+
+  <!-- Check if number is greater than 5 -->
+  <p>
+    Try entering a number greater than 5, then click the button below:
+    <input type="text" id="attempt" /><br />
+    <button id="tryButton" type="button">Try your number</button></br>
+    <span id="theResult"></span>
+  </p>
+
+  <p class="italic-text">
+    I started playing hockey when I was in high school. I did not start on
+    ice, but on roller blades. Later I learned to ice skate and played ice
+    hockey.
+  </p>
+
+  <p>
+    If you really want to get better as a hockey player, the
+    <span class="highlighted-text">most fundamental</span> skill is skating.
+  </p>
+
+  <div id="container">
+    <!-- upper left -->
+    <div class="items">
+      <p>Here is what you need to play:</p>
+      <ul class="italic-text">
+        <li>Ice skates</li>
+        <li>hockey stick</li>
+        <li>puck</li>
+        <li>helmet</li>
+        <li>net</li>
+      </ul>
+    </div>
+
+    <!-- upper right -->
+    <div class="items">
+      <p>Some of my favorite all-time players are:</p>
+      <ul class="italic-text">
+        <li>Wayne Gretzky</li>
+        <li>Jonathan Quick</li>
+        <li>Patrick Roy</li>
+        <li>Luc Robitalle</li>
+      </ul>
+    </div>
+
+    <!-- lower left -->
+    <div class="items">
+      <a href="second.html">
+        <img src="images/skating.jpg" alt="Skaters chasing the puck" width="200" />
+      </a>
+    </div>
+
+    <!-- lower right -->
+    <div class="items">
+      <img src="images/coding.jpg" width="200" />
+    </div>
+  </div>
+  <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.2.min.js"></script>
+  <script src="js/index.js"></script>
+</body>
+
+</html>
